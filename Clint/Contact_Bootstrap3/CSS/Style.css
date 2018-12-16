@@ -1,0 +1,36 @@
+.contact-form{
+    max-width: 500px;
+    margin: 20px auto;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+    margin-bottom: 8px;
+    padding-left: 35px;
+}
+
+.contact-form i{
+   display: block;
+    position:relative;
+   height: 0px;
+   top: -32px;
+   left: 10px;
+   color: #777;
+    
+}
+.contact-form i.fa-send{
+  
+    color: #FFFFFF;
+     
+ }
+ .contact-form .alert-custom{
+         padding: 5px 10px; 
+         display: none;
+         margin-bottom: 10px;
+       
+   }
+   .form-group {
+    margin-bottom: 0px;
+}
+ 

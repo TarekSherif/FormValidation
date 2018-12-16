@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+		<link rel="stylesheet" href="CSS/bootstrap.min.css">
+		<link rel="stylesheet"  href="Css/font-awesome.min.css">
+		<link rel="stylesheet" href="Css/Style.css">
+		
+
+</head>
+
+<body>
+<!-- start form -->
+	<dir class="container">
+	 <h1 class="text-center">Contact Me</h1>
+	 
+	 <!-- <div class="form-group has-success has-feedback">
+		<label class="control-label" for="inputSuccess2">Input with success</label>
+		<input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+		<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+		<span id="inputSuccess2Status" class="sr-only">(success)</span>
+	  </div> -->
+
+		<form class="contact-form" method="get"  action="index.html?test" novalidate >
+
+				<div class="form-group  has-feedback">
+						
+						<input type="text" class="form-control" id="inputSuccess2" required
+						 aria-describedby="inputSuccess2Status" placeholder="userName" name="userName"  >
+						 <i class="fa fa-user fa-fw"></i>
+						<span class="glyphicon  form-control-feedback" aria-hidden="true"></span>
+						<span id="inputSuccess2Status" class="sr-only">(success)</span>
+				</div>
+
+		
+				<div class="form-group  has-feedback">
+					
+						<input type="email" class="form-control" id="inputSuccess2" required
+						 aria-describedby="inputSuccess2Status" placeholder="email" name="email"></input>	
+						 <i class="fa fa-envelope fa-fw"></i>
+						<span class="glyphicon  form-control-feedback" aria-hidden="true"></span>
+						<span id="inputSuccess2Status" class="sr-only">(success)</span>
+				</div>
+			
+		
+			
+
+			<div  class="form-group  has-feedback">
+				
+					<input type="text" class="form-control" id="inputSuccess2" pattern="^(\s*|\d+)$" 
+					 aria-describedby="inputSuccess2Status" 	placeholder="Phone" name="Phone"/>
+					 <i class="fa fa-phone fa-fw"></i>
+					 <span class="glyphicon  form-control-feedback" aria-hidden="true"></span>
+					 <span id="inputSuccess2Status" class="sr-only">(success)</span>
+				
+			</div>
+					
+			<div class="form-group  has-feedback">
+				
+				<textarea  class="form-control" required
+				placeholder="Enter your Massage"	 id="inputSuccess2"
+					 aria-describedby="inputSuccess2Status" name="Massage" 	></textarea>
+					
+					<span class="glyphicon  form-control-feedback" aria-hidden="true"></span>
+					<span id="inputSuccess2Status" class="sr-only">(success)</span>
+			</div>
+
+			
+			<input type="submit" name="sent" class="btn btn-success"/>
+			<i class="fa fa-send fa-fw submit-icon"></i>
+
+		</form>
+		
+	</dir>
+	<!-- End form -->
+	
+	<script  src="js/jquery.min.js"></script>
+	<script  src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+
+</body>
+</html>
